@@ -15,17 +15,20 @@ dans votre projet.
 Activez l'environnement virtuel avec la commande ```pipenv shell``` à la racine du projet.
 
 ### Lancer le programme
+
 Une fois que l'environnement est activé, et que le script est
 bien situé, vous pouvez lancer le programme avec la commande
 suivante : ```python -m appel_pic ```
+
+Votre fichier avec la liste d'appels ('calls.txt') doit se situer 
+au même niveau que votre fichier ***appel_pic.py*** .
 
 ### Les tests
 Si vous voulez faire passer les tests, la commande est la 
 suivante : ```pytest -vvv```
 
 ###  Modifier les données entrantes 
-Votre fichier avec la liste d'appels ('calls.txt') doit se situer 
-au même niveau que votre fichier ***appel_pic.py*** .
+
 
 Si vous voulez utiliser d'autres données entrantes, vous pouvez
 modifier les données dans le fichier calls.txt sous la forme
