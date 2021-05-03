@@ -7,8 +7,7 @@ Le programme vous retourne le plus grand nombre d'appels qui sont simultanés.
 
 ### Installation
 
-Pour lancer le programme, utilisez ```git clone``` pour récupérer
-le programme dans votre projet.
+Pour lancer le programme, utilisez ```git clone https://github.com/jonathanreveille/pic_appel.git``` pour récupérer le programme dans votre projet.
 
 ### Activation de l'environnement virtuel
 Activez l'environnement virtuel avec la commande ```pipenv shell``` à la racine du projet.
