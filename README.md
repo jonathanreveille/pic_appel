@@ -7,9 +7,11 @@ Le programme vous retourne le plus grand nombre d'appels qui sont simultanés.
 
 ### Installation
 
-Pour lancer le programme, utilisez ```git clone https://github.com/jonathanreveille/pic_appel.git``` pour récupérer le programme dans votre projet.
+Pour récupérer le programme, utilisez la commande
+ ```git clone https://github.com/jonathanreveille/pic_appel.git``` 
+dans votre projet.
 
-### Activation de l'environnement virtuel
+### Activer de l'environnement virtuel
 Activez l'environnement virtuel avec la commande ```pipenv shell``` à la racine du projet.
 
 ### Lancer le programme
@@ -25,7 +27,7 @@ suivante : ```pytest -vvv```
 Votre fichier avec la liste d'appels ('calls.txt') doit se situer 
 au même niveau que votre fichier ***appel_pic.py*** .
 
-Si vous voulez utilisez d'autres données entrantes, vous pouvez
+Si vous voulez utiliser d'autres données entrantes, vous pouvez
 modifier les données dans le fichier calls.txt sous la forme
 **start:end**.  'Start' étant inférieur à 'End', et les appels
-sont rangés dans l'ordre croissant sur le champ 'start'.
+sont rangés dans l'ordre croissant sur le champ 'Start'.
