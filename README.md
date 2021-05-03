@@ -9,7 +9,9 @@ Pour récupérer le programme, utilisez la commande
 dans votre projet.
 
 ### Activer de l'environnement virtuel
-Activez l'environnement virtuel avec la commande ```pipenv shell``` à la racine du projet.
+Activez l'environnement virtuel en deux étapes à partir de la racine du projet : 
+- avec la commande ```pipenv install```pour installer les dépendances
+- avec la commande ```pipenv shell``` pour activer le shell
 
 ### Lancer le programme
 Une fois que l'environnement est activé, vous pouvez lancer le programme avec la commande
