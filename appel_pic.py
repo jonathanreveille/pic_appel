@@ -1,4 +1,6 @@
 #! /usr/bin/env python3
+# coding : utf-8
+
 """
 This script will allow us to find
 out how many calls at once (within
@@ -63,7 +65,7 @@ class Simultaneous():
         the data, please change the parameter
         in the method read_call_list"""
 
-        data = self.read_call_list('calls.txt')
+        data = self.read_call_list('data/calls.txt')
         clean_data = self.transform_str_to_int_from_a_list(data)
         simultaneous_calls = self.count_simultaneous_calls(clean_data)
         print(simultaneous_calls)
