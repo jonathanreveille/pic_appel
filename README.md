@@ -4,8 +4,7 @@
 liste d'appel, sous le format start:end, le pic d'appels
 simultané (actif pendant la même seconde).
 
-## Le programme vous retourne le plus grand nombre d'appel
-qui sont simultanés.
+## Le programme vous retourne le plus grand nombre d'appels qui sont simultanés.
 
 Pour lancer le programme, utilisez ```git clone``` pour récupérer
 le programme dans votre projet.
