@@ -63,7 +63,7 @@ class Simultaneous():
         simultaneous calls.
         If you need to modify the source of
         the data, please change the parameter
-        in the method read_call_list"""
+        in the method read_call_list line 68"""
 
         data = self.read_call_list('data/calls.txt')
         clean_data = self.transform_str_to_int_from_a_list(data)
