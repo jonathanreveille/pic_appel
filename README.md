@@ -1,0 +1,23 @@
+Ceci est un programme qui permet de vérifier dans une 
+liste d'appel, sous le format start:end, le pic d'appel
+simultané (actif pendant la même seconde).
+Le programme vous retourne le plus grand nombre d'appel
+qui sont simultanés.
+
+Pour lancer le programme, utilisez git clone pour récupérer
+le programme dans votre projet.
+
+Lancez l'environnement virtuel avec la commande pipenv shell.
+
+Votre fichier avec la liste d'appel doit se situer au même niveau
+que votre fichier appel_pic.py .
+Si vous voulez utilisez d'autres données entrantes, vous pouvez
+modifier les données dans le fichier calls.txt sous la forme
+start:end .
+
+Une fois l'environnement activé, et le script bien situé, 
+vous pouvez lancer le programme avec la commande suivante :
+python -m pic.
+
+Si vous voulez faire passer les tests, la commande est la 
+suivante : pytest -vvv
