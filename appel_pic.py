@@ -14,7 +14,7 @@ class Simultaneous():
         self.count = int()
 
     def read_call_list(self, file):
-        """method to read the line in txt file, and 
+        """method to read the line in txt file, and
         create a 2D str list"""
 
         with open(file, 'r') as f:
@@ -26,7 +26,7 @@ class Simultaneous():
         return self.call_list
 
     def transform_str_to_int_from_a_list(self, data):
-        """method to transform 2D str list into a 
+        """method to transform 2D str list into a
         2D int list"""
 
         self.fresh_list = [
@@ -55,3 +55,23 @@ class Simultaneous():
                     self.count += 1
 
         return self.count
+
+    def search_simultaneous_calls(self):
+        """method that returns the result of
+        simultaneous calls.
+        If you need to modify the source of
+        the data, please change the parameter
+        in the method read_call_list"""
+
+        data = self.read_call_list('calls.txt')
+        clean_data = self.transform_str_to_int_from_a_list(data)
+        simultaneous_calls = self.count_simultaneous_calls(clean_data)
+        print(simultaneous_calls)
+
+
+def main():
+    pic_appel = Simultaneous()
+    pic_appel.search_simultaneous_calls()
+
+if __name__ == "__main__":
+    main()
